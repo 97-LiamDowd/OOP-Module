@@ -8,6 +8,11 @@ public class Lotto {
             lottoNums[i] = (int)(Math.random() * 47) + 1;
         }
 
+        //print 6  numbers
+        for(int i = 0; i < lottoNums.length; i++){
+            System.out.println(lottoNums[i]);
+        }
+
     }
 
 }

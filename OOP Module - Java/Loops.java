@@ -30,5 +30,7 @@ public class Loops {
         int age;
         byte value= 19;
         age = value;
+
+        System.out.println(age);
     }
 }
