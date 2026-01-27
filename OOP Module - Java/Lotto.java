@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Lotto {
     public static void main(String[] args){
 
@@ -13,6 +15,9 @@ public class Lotto {
                 }
             }
         }
+
+        //sort the number
+        Arrays.sort(lottoNums);
 
         //print 6  numbers
         for(int i = 0; i < lottoNums.length; i++){
