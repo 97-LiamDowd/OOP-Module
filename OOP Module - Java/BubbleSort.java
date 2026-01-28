@@ -18,7 +18,7 @@ public class BubbleSort{
         for (int i = 0; i < numbers.length; i++){
             swapped = false;
             for (int j = 0; j < numbers.length-1; j++){
-                if (numbers[j] > numbers[j+1]);
+                if (numbers[j] > numbers[j+1]){
                     
                     //swap values
                     temp = numbers[j];
@@ -28,16 +28,17 @@ public class BubbleSort{
             
                 }
 
-                System.out.println(numbers);
+            if (swapped == false){
+                break;
+            }   
 
-             if (swapped == false){
-            break;
             }   
     
         }
         
         duration = System.currentTimeMillis() - startTime;
         System.out.println("Time in miliseconds: " + duration);
+        System.out.println(numbers);
         
 
     }
