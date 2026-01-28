@@ -1,3 +1,4 @@
+import java.util.Arrays;
 public class Euromillions {
     public static void main(String[] args){
 
@@ -19,6 +20,8 @@ public class Euromillions {
             luckystars[1] = (int)(Math.random() * 12) + 1;
 
         } while (luckystars[0]  == luckystars[1]);
+
+        Arrays.sort(numbers);
 
     }
 }
